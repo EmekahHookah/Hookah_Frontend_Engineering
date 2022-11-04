@@ -1,0 +1,51 @@
+.container{
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border: 10px dashed rgb(243, 227, 5);
+    background-color: blue;
+    outline: 2px;
+    outline-style: auto;
+    outline-color: black;
+    outline-offset: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    box-shadow: 20px;
+}
+.italic{
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 600;
+    color: gold;
+}
+.italic span{
+    font-size: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    color: greenyellow;
+}
+.container h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+ul{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: initial;
+    display: block;
+    text-align: justify;
+    margin-right: 5em;
+    color: white;
+}
+ul li::before{
+    content: "\2022";
+    display: inline-block;
+    color: green;
+    width: 1em;
+}
